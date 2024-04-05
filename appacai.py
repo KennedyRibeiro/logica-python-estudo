@@ -11,5 +11,15 @@ print("--------------------------------------------------")
 sabor = input("Escolha o sabor desejado (CP|AC):")
 tamanho = input("Escolha o tamanho desejado (P|M|G:)")
 
-if sabor == "CP" and sabor == "AC":
-    print("")
+if sabor == "CP" and tamanho == "P":
+    print("Você pediu Cupuaçu P, o pedido fica em: R$ 10,00")
+elif sabor == "CP" and tamanho == "M":
+    print("Você pediu Cupuaçu M, o pedido fica em: R$ 15,00")
+elif sabor == "CP" and tamanho == "G":
+    print("Você pediu Cupuaçu G, o pedido fica em: R$ 19,00")
+elif sabor == "AC" and tamanho == "P":
+    print("Você pediu Açaí P, o pedido fica em: R$ 12,00")
+elif sabor == "AC" and tamanho == "M":
+    print("Você pediu Açaí M, o pedido fica em: R$ 17,00")
+elif sabor == "AC" and tamanho == "G":
+    print("Você pediu Açaí G, o pedido fica em: R$ 21,00")
