@@ -79,8 +79,4 @@ while cont <= 1:
     else:
         print("O Valor total a ser pago: R$",valor1)
 
-
     cont += 1
-
-
-

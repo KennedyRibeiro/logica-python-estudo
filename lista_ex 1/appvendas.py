@@ -1,5 +1,4 @@
 
-
 print("Bem-Vindo a Loja do Kennedy")
 val_unit = float(input("Entre com o valor unitário do produto: "))
 qtd_prod = int(input("Entre com a quantidade do produto: "))
@@ -26,6 +25,4 @@ else:
                 calc = (valor * 11) / 100
                 c_desc = valor - calc
                 print("O Valor sem desonto foi R$", valor)
-                print("O Valor com desonto foi R$", c_desc,"(Desconto de 11%)")    
-        
-
+                print("O Valor com desonto foi R$", c_desc,"(Desconto de 11%)")
